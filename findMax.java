@@ -19,3 +19,4 @@ public class findMax {
         System.out.println("The max number is: " + max);
     }
 }
+
