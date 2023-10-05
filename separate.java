@@ -3,28 +3,23 @@
 import java.util.Scanner;
 
 public class separate {
-    private String name;
-    private String degree;
-
     public static void main(String[] args) {
+        System.out.println("User Details:");
+
         separate userDetails = new separate();
+
         userDetails.inputUserDetails();
-        userDetails.displayUserDetails();
     }
     
     public void inputUserDetails() {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter your name: ");
-        this.name = scanner.nextLine();
+        String name = scanner.next();
 
         System.out.print("Enter your degree: ");
-        this.degree = scanner.nextLine();
-    }
+        String degree = scanner.next();
 
-    public void displayUserDetails() {
-        System.out.println("User Details:");
-        System.out.println("Name: " + name);
-        System.out.println("Degree: " + degree);
+        System.out.println(name + " " + degree);
     }
 }
