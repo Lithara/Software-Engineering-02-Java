@@ -5,7 +5,7 @@ public class Car {
     String name;
     String color;
     double weight;
-    int spped;
+    int speed;
 
     public void speed() {
         System.out.println(speed);
