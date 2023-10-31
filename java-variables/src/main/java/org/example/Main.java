@@ -10,5 +10,7 @@ public class Main {
         objEmployee.name = "Lithara";
 
         objEmployee.ageFinder();
+
+        System.out.println(objEmployee.Department);
     }
 }
