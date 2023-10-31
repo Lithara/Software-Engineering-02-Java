@@ -4,6 +4,11 @@ package org.example;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
+        Employee objEmployee = new Employee();
 
+        objEmployee.age = 15;
+        objEmployee.name = "Lithara";
+
+        objEmployee.ageFinder();
     }
 }
