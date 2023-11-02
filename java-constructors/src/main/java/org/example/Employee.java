@@ -16,4 +16,10 @@ public class Employee {
         this.age = 25;
         this.department = "IT";
     }
+
+    public Employee(String name, int age) {
+        this.name = name;
+        this.age = age;
+
+    }
 }
