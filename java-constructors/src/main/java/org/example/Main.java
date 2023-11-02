@@ -6,8 +6,6 @@ public class Main {
     public static void main(String[] args) {
         Employee objEmployee = new Employee();
 
-        System.out.println(objEmployee.Department);
-        System.out.println(objEmployee.name);
-        System.out.println(objEmployee.age);
+        System.out.println(objEmployee.age + " " + objEmployee.name + " " + objEmployee.department);
     }
 }
