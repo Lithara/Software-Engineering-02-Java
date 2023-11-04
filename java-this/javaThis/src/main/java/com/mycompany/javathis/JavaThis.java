@@ -4,13 +4,11 @@
 
 package com.mycompany.javathis;
 
-/**
- *
- * @author LENOVO
- */
 public class JavaThis {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Employee objEmployee = new Employee("ajith", 15, "IT");
+        
+        System.out.println(objEmployee.age + " " + objEmployee.department);
     }
 }
