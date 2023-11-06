@@ -4,7 +4,7 @@ package org.example;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        Employee objEmployee = new Employee();
+        Employee objEmployee = new Employee("ajith", 15, "IT");
 
         System.out.println(objEmployee.age + " " + objEmployee.department);
     }
