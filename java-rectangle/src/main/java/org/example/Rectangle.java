@@ -3,7 +3,7 @@ package org.example;
 public class Rectangle {
     double length;
     double width;
-    int count = 0;
+    static int count = 0;
 
     public Rectangle(){
         this.length = 5;
