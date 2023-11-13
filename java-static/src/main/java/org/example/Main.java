@@ -15,5 +15,7 @@ public class Main {
         objEmployee2.age = 20;
         objEmployee2.department = "IT";
 
+        objEmployee1.show();
+        objEmployee2.show();
     }
 }

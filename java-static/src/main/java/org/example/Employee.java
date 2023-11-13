@@ -10,6 +10,6 @@ public class Employee {
     }
 
     public void show() {
-
+        System.out.println(name + " " + age + " " + department);
     }
 }
