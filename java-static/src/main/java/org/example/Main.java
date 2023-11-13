@@ -9,13 +9,15 @@ public class Main {
 
         objEmployee1.name = "Lithara";
         objEmployee1.age = 21;
-        objEmployee1.department = "IT";
+        Employee.department = "IT";
 
         objEmployee2.name = "Dihansa";
         objEmployee2.age = 20;
-        objEmployee2.department = "IT";
+        Employee.department = "Maintenance";
 
         objEmployee1.show();
         objEmployee2.show();
     }
 }
+
+//5:30
