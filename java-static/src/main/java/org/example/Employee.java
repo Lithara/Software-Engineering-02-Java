@@ -5,8 +5,13 @@ public class Employee {
     int age;
     static String department;
 
-    public Employee() {
+    static {
+        department = "IT";
+        System.out.println("in static block");
+    }
 
+    public Employee() {
+        System.out.println("in constructor");
     }
 
     public void show() {
