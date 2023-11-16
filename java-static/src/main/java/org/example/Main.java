@@ -9,7 +9,6 @@ public class Main {
 
         objEmployee1.name = "Lithara";
         objEmployee1.age = 21;
-        Employee.department = "IT";
 
         objEmployee2.name = "Dihansa";
         objEmployee2.age = 20;
