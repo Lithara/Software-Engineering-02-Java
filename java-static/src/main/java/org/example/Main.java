@@ -12,6 +12,7 @@ public class Main {
 
         objEmployee2.name = "Dihansa";
         objEmployee2.age = 20;
+
         Employee.department = "Maintenance";
 
         objEmployee1.show();
