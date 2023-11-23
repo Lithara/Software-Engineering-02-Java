@@ -39,6 +39,7 @@ class BabyDog extends Dog{
 
 public class Main {
     public static void main(String[] args) {
+
         /*Animal objAnimal1, objAnimal2, objAnimal3;
 
         objAnimal1 = new Animal();
